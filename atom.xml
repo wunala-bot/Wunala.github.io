@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Mr. Yang</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <icon>https://youngreviews.cc/images/favicon.png</icon>
+  <id>https://youngreviews.cc/</id>
+  <link href="https://youngreviews.cc/" rel="alternate"/>
+  <link href="https://youngreviews.cc/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Mr. Yang</rights>
+  <title>读读说明书</title>
+  <updated>2026-02-23T13:18:19.302Z</updated>
+  <entry>
+    <author>
+      <name>Mr. Yang</name>
+    </author>
+    <category term="思考" scheme="https://youngreviews.cc/tags/%E6%80%9D%E8%80%83/"/>
+    <category term="运动" scheme="https://youngreviews.cc/tags/%E8%BF%90%E5%8A%A8/"/>
+    <id>https://youngreviews.cc/2026/01/18/2026-01-18-%E8%A1%8C%E8%B5%B0%E6%98%AF%E4%B8%80%E7%A7%8D%E6%80%9D%E8%80%83%E6%96%B9%E5%BC%8F/</id>
+    <link href="https://youngreviews.cc/2026/01/18/2026-01-18-%E8%A1%8C%E8%B5%B0%E6%98%AF%E4%B8%80%E7%A7%8D%E6%80%9D%E8%80%83%E6%96%B9%E5%BC%8F/"/>
+    <published>2026-01-18T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>有一天，在抖音上刷到一个视频，文案是”对不喜欢健身的人，去健身，这叫自律。对喜欢健身的人，去健身，这叫纵欲。”</p>
+<p>周六，一个人去了青城山后山。两年前，和朋友爬过一次前山，我还以为后山只是前山的另外一个面，结果出发的时候看到导航才发现还隔蛮远的。快下高速的时候，后]]>
+    </summary>
+    <title>行走是一种思考方式</title>
+    <updated>2026-02-23T13:18:19.302Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr. Yang</name>
+    </author>
+    <category term="年度" scheme="https://youngreviews.cc/tags/%E5%B9%B4%E5%BA%A6/"/>
+    <id>https://youngreviews.cc/2025/12/30/2025-12-30-%E5%B9%B3%E9%9D%99%E5%9C%B0-%E5%8F%88%E4%B8%80%E5%B9%B4%E8%BF%87%E5%8E%BB/</id>
+    <link href="https://youngreviews.cc/2025/12/30/2025-12-30-%E5%B9%B3%E9%9D%99%E5%9C%B0-%E5%8F%88%E4%B8%80%E5%B9%B4%E8%BF%87%E5%8E%BB/"/>
+    <published>2025-12-30T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>蜡笔小新电影里面有一个片段是小新用力地喊道：”我不要再失去任何人了”。我是在抖音上面刷到的，应该是在去年底的某一天，当时觉得简直就是说出了我内心在痛苦与气愤之后，不认命的倔强情绪反扑。</p>
+<p>回成都的一年多，换了三个地方住。最开始在离公司步行20分钟左右的地方，每天]]>
+    </summary>
+    <title>平静地，又一年过去</title>
+    <updated>2026-02-23T13:18:19.302Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Mr. Yang</name>
+    </author>
+    <category term="年度" scheme="https://youngreviews.cc/tags/%E5%B9%B4%E5%BA%A6/"/>
+    <id>https://youngreviews.cc/2022/01/01/2022-01-01-annual-summary/</id>
+    <link href="https://youngreviews.cc/2022/01/01/2022-01-01-annual-summary/"/>
+    <published>2022-01-01T00:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>首先感谢朋友“卷起来”让我下决心不再偷懒，开始动手敲这个真正的年终总结。<br>记得2021年初的时候写过一条微博，大意是：我希望在2021年能够给身边的人&amp;世界带来更多的积极。这是一个不能自证的Flag，也就无所谓说现在它是完成了还是彻底破产了。但Flag完成与否]]>
+    </summary>
+    <title>2021年终总结</title>
+    <updated>2026-02-23T13:18:19.302Z</updated>
+  </entry>
+</feed>

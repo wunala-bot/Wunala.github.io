@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+     | 读读说明书
+  </title>
+  <link rel="icon" href="/images/favicon.png">
+  <link rel="stylesheet" href="/css/style.css">
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6NZNG2XJNE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-6NZNG2XJNE');
+    </script>
+    
+<meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="读读说明书" type="application/atom+xml">
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <header class="site-header">
+      <a href="/" class="site-title">
+        <img src="/images/favicon.png" alt="天王星" class="site-icon">
+        <span>
+          读读说明书
+        </span>
+      </a>
+    </header>
+
+    <main class="main-content">
+      <section class="archive-container">
+  <div class="archive-header">
+    <h1 class="archive-page-title">文章列表</h1>
+    <p class="archive-subtitle">共有 1 篇</p>
+  </div>
+
+  <!-- 标签筛选器 -->
+  <div class="tag-filter">
+  <button class="tag-filter-btn active" data-tag="all">全部</button>
+  
+    <button class="tag-filter-btn" data-tag="年度">年度</button>
+  
+    <button class="tag-filter-btn" data-tag="思考">思考</button>
+  
+    <button class="tag-filter-btn" data-tag="运动">运动</button>
+  
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var filterBtns = document.querySelectorAll('.tag-filter-btn');
+  var articles = document.querySelectorAll('.archive-article');
+  var years = document.querySelectorAll('.archive-year');
+  var pagination = document.querySelector('.pagination');
+
+  filterBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      // 移除所有按钮的 active 类
+      filterBtns.forEach(function(b) {
+        b.classList.remove('active');
+      });
+      // 给当前按钮添加 active 类
+      this.classList.add('active');
+
+      var selectedTag = this.getAttribute('data-tag');
+
+      articles.forEach(function(article) {
+        var articleTags = article.getAttribute('data-tags');
+        if (selectedTag === 'all') {
+          article.classList.remove('hidden');
+        } else if (articleTags && articleTags.indexOf(selectedTag) !== -1) {
+          article.classList.remove('hidden');
+        } else {
+          article.classList.add('hidden');
+        }
+      });
+
+      // 筛选时隐藏年份标题和分页
+      if (selectedTag === 'all') {
+        years.forEach(function(year) {
+          year.style.display = 'block';
+        });
+        if (pagination) {
+          pagination.style.display = 'flex';
+        }
+      } else {
+        years.forEach(function(year) {
+          year.style.display = 'none';
+        });
+        if (pagination) {
+          pagination.style.display = 'none';
+        }
+      }
+    });
+  });
+});
+</script>
+
+
+  <div class="archive-list">
+    
+    
+      
+      
+      
+        
+        <h2 class="archive-year">2026</h2>
+      
+
+      <article class="archive-article" data-tags="思考,运动">
+        <div class="archive-article-inner">
+          <time datetime="2026-01-18" class="archive-article-date">
+            01-18
+          </time>
+          <h2 class="archive-article-title">
+            <a href="/2026/01/18/2026-01-18-%E8%A1%8C%E8%B5%B0%E6%98%AF%E4%B8%80%E7%A7%8D%E6%80%9D%E8%80%83%E6%96%B9%E5%BC%8F/">行走是一种思考方式</a>
+          </h2>
+        </div>
+      </article>
+    
+  </div>
+
+  
+
+</section>
+
+    </main>
+
+    <footer class="site-footer">
+      <a href="/" class="footer-link">主页</a><span class="footer-divider"></span><a href="/about" class="footer-link">关于我</a><span class="footer-divider"></span><a href="/archives" class="footer-link">文章列表</a><span class="footer-divider"></span><a href="mailto:youngqi27@163.com" class="footer-link">联系</a><span class="footer-divider"></span><a href="/atom.xml" class="footer-link">RSS</a>
+        <div class="footer-copyright">
+          <p>&copy; 2026 Mr. Young</p>
+          <p class="site-motto">
+            在夏天到达的尽头，值得我赌上每一份青春。
+          </p>
+        </div>
+    </footer>
+  </div>
+</body>
+
+</html>
